@@ -2,20 +2,17 @@
 
 Applying requirejs thoughts to the whole front-end project , and reduce the knowledge pressure to developers .
 
+the project maybe develop with b++(a new language ) concurrently, so I wish requireYou can stand a height of language and machine.
+
 RequireYou loads all kinds of functionality frameworks as well as more defined modules. It is
 optimized for in-browser use, including in
-[a Web Worker](http://requirejs.org/docs/api.html#webworker), but it can be used
-in other JavaScript environments, like Rhino and
-[Node](http://requirejs.org/docs/node.html). It implements the
+[a Web Worker](http://requirejs.org/docs/api.html#webworker), It implements the
 [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself).
 
-RequireYou uses plain script tags to load frameworks, so it should allow for
-easy debugging. It can be used
-[simply to load existing JavaScript files](by bower),
-so you can add it to your existing project without having to re-write your
-JavaScript files.
+RequireYou uses requirejs syntax to load frameworks, so it should be asynchronous defaultly. It can be used
+[simply to load existing JavaScript files](by bower).
 
-RequireYou includes [an optimization tool]()
+RequireYou includes [an optimization tool](by requirejs)
 you can run as part of your packaging steps for deploying your code. The
 optimization tool can combine and minify your JavaScript files to allow for
 better performance.
@@ -24,19 +21,28 @@ If the JavaScript file defines a JavaScript module via
 [define()](http://requirejs.org/docs/api.html#define), then there are other benefits
 RequireYou can offer: [improvements over traditional CommonJS modules](http://requirejs.org/docs/commonjs.html)
 and [loading multiple versions](http://requirejs.org/docs/api.html#multiversion)
-of a module in a page. RequireYou also has a plugin system that supports features like
-[i18n string bundles](http://requirejs.org/docs/api.html#i18n), and
-[text file dependencies](http://requirejs.org/docs/api.html#text).
+of a module in a page. RequireYou should be extensible so a plugin system is feasible.
 
-RequireYou has dependencies on some JavaScript frameworks like coffeescript , jquery, qunit etc.
+RequireYou has dependencies on some front-end tech like coffeescript , jquery, qunit etc. it is inspired and converted from requirejs, i.e. it is a fork of requirejs.
 It is dual-licensed -- new BSD or MIT.
 
-The standard requireYou file is around KB when minified via Closure Compiler
-and gzipped.
+The standard requireYou file is around KB when minified via Grunt-contrib-jsmin. the project is managed by yeoman including yeoman generator, bower and grunt.
 
-RequireYou works in IE 6+, Firefox 2+, Safari 3.2+, Chrome 3+, and Opera 10+ depend on the invoked frameworks.
+some code is developed on ipad. editor is Fastkeyboard sometimes. code sharing website is jsbin. you can file bugs or contact author by issue tracker of GitHub , or email to qcgm197874@gmail.com 
 
-[Latest Release]()
+RequireYou is future-oriented, so it plans to support the newest browsers especially Chrome because it updates fast and debug easily, and coast by Opera should be compatible . of course it depends on the invoked frameworks also.
+
+downloading tool:bower
+
+system compatible: windows8
+
+cli: powershell 3
+
+doc generation : grunt-contrib-yuidoc, and it perhaps use other generation tool like what coffeescript does.
+
+test framework: qunit. it can be reference in jsbin, but it is to integrate into webstorm.
+
+[Latest Release](plan time: before 2013-12-31)
 
 ## Directories
 
