@@ -7,8 +7,7 @@ optimized for in-browser use, including in
 [a Web Worker](http://requirejs.org/docs/api.html#webworker), but it can be used
 in other JavaScript environments, like Rhino and
 [Node](http://requirejs.org/docs/node.html). It implements the
-[DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself)
-API.
+[DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself).
 
 RequireYou uses plain script tags to load frameworks, so it should allow for
 easy debugging. It can be used
