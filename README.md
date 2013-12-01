@@ -1,4 +1,6 @@
-# RequireJS
+# RequireYou
+
+applying requirejs thoughts to the whole front-end project , and reduce the knowledge pressure to developers 
 
 RequireJS loads plain JavaScript files as well as more defined modules. It is
 optimized for in-browser use, including in
