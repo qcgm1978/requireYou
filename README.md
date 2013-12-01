@@ -32,6 +32,8 @@ some code is developed on ipad. editor is Fastkeyboard sometimes. code sharing w
 
 RequireYou is future-oriented, so it plans to support the newest browsers especially Chrome because it updates fast and debug easily, and coast by Opera should be compatible . of course it depends on the invoked frameworks also.
 
+paradigm: time-driven, it makes use of development time to map a list including sources implementing all kinds of functionalities. the total principle is specified by author or other core developers. the list is improved with time and development theory.
+
 downloading tool:bower
 
 system compatible: windows8
