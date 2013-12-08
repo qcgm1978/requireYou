@@ -11,7 +11,7 @@ optimized for in-browser use, including in
 
 how to load lib from Internet ? with a clean copy of the code base, we can use a little shell script to check out the library, copy and use it in my project, as shown here:(javascript ninja)
 
-    #!/bin/sh
+         #!/bin/sh
          # Check out a fresh copy of jQuery
          git clone git://github.com/jquery/jquery.git $1
          # Copy the file in
