@@ -9,6 +9,16 @@ optimized for in-browser use, including in
 [a Web Worker](http://requirejs.org/docs/api.html#webworker), It implements the
 [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself).
 
+how to load lib from Internet ? with a clean copy of the code base, we can use a little shell script to check out the library, copy and use it in my project, as shown here:(javascript ninja)
+
+    #!/bin/sh
+         # Check out a fresh copy of jQuery
+         git clone git://github.com/jquery/jquery.git $1
+         # Copy the file in
+         cp $2.html $1/index.html
+         # Build a copy of the jQuery test suite
+         cd $1 && make
+
 RequireYou uses requirejs syntax to load frameworks, so it should be asynchronous defaultly. It can be used
 [simply to load existing JavaScript files](by bower).
 
